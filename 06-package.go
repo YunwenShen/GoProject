@@ -35,4 +35,5 @@ func packageExample3() {
 func packageExample4() {
 	// 在GO中导入了包却不使用这样是会报错的，
 	// 同理变量在GO中声明了却不使用同样也是会报错的
+	// 可以使用空白标识符来屏蔽这样的问题
 }
