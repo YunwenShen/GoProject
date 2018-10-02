@@ -15,7 +15,6 @@ func function(param string) (int, int) {
 	return 0, 0
 }
 
-
 func test() {
 	// _空白符表示不接受该值
 	a, _ := myAbs(1)

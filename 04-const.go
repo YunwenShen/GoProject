@@ -19,8 +19,8 @@ func example3() {
 	// f1编译通过，f2编译不通过
 	const c = 0
 	var d = 0
-/*	var f1 float32 = c
-	var f2 float32 = d*/
+	/*	var f1 float32 = c
+		var f2 float32 = d*/
 }
 
 func example4() {
