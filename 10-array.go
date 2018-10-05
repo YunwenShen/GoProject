@@ -100,3 +100,7 @@ func arrayExample10() {
 		fmt.Println("names contents:", names)
 	}
 }
+
+// 在GO中的数组值得注意的点：GO中的数组值类型，而GO中的切片是引用类型
+// 将GO中的数组传递到函数中对其做操作不会改变其数组
+// 而对GO中的切片传递到函数中对其做操作会改变其切片
