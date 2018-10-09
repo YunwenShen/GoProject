@@ -16,4 +16,5 @@ func main() {
 	delete(dict, "a")
 	// 获取map的长度
 	fmt.Println(len(dict))
+	// map不能比较是否相等
 }
