@@ -36,6 +36,15 @@ func bufferedChannelExample2() {
 	}
 }
 
-func main() {
+func bufferedChannelExample3() {
+	// 缓冲信道的容量是指信道可以存储的值的数量
+	// 缓冲信道的长度指的是当前排队的元素的个数
+	buffered := make(chan int, 2)
+	unbuffered := make(chan int)
+	fmt.Println("buffered channel capicity is ", cap(buffered), " size is ", len(buffered))
+	fmt.Println("unbuffered channel capicity is ", cap(unbuffered), " size is ", len(unbuffered))
+}
 
+func main() {
+	bufferedChannelExample3()
 }
