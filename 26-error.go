@@ -31,3 +31,6 @@ func main() {
 		fmt.Println("area of circle ", area)
 	}
 }
+
+// 在go中错误的概念并不是指的是java中的异常。
+// 运行时发生错误依然能够继续执行，运行时发生异常运行中止
